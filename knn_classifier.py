@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import partitioning
-import conf
+import confusion
 
 # Euclidean distance calculation
 def distance(a, b, ax=1):
@@ -63,7 +63,8 @@ if __name__ == "__main__":
     Y_predicted = knn(X_train,X_test,Y_train,Y_test)
     
     print("confusion matrix:") 
-    mat = conf.confusion_matrix(Y_test,Y_predicted,labels)
+    mat = confusion.confusion_matrix(Y_test,Y_predicted,labels)
     print(mat)
         
-    conf.perf_measures(mat,labels)
+    confusion.perf_measures(mat,labels)
+    
