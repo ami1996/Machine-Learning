@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+"""
+@author: Amit kumar
+"""
+
 import random
 import math
 import matplotlib.pyplot as plt
