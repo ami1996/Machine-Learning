@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Feb 13 09:19:43 2020
-
 @author: Amit kumar
 """
 
