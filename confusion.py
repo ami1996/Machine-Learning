@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+"""
+@author: Amit kumar
+"""
+
 #from pandas import read_csv
 import numpy as np
         
